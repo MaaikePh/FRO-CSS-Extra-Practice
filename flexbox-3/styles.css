@@ -8,6 +8,7 @@
 
 body {
     background-color: hsl(35, 40%, 91%);
+    font-family: Avenir, Arial, sans-serif;
 }
 
 a {
@@ -34,6 +35,14 @@ header img {
     width: 100%;
 }
 
+.header-wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .nav-wrapper {
     max-width: 1200px;
     width: 100%;
@@ -53,6 +62,10 @@ ul {
 .hamburger-menu {
     max-width: 50px;
     width: 100%;
+}
+
+.hamburger-menu:hover {
+    cursor: pointer;
 }
 
 /*Desktop*/
